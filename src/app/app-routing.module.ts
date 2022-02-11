@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'list',
+    loadChildren: () => import('./pages/list/list.module').then( m => m.ListPageModule)
+  },
+  {
+    path: 'oeuvre-create',
+    loadChildren: () => import('./pages/oeuvre-create/oeuvre-create.module').then( m => m.OeuvreCreatePageModule)
+  },
 ];
 
 @NgModule({

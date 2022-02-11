@@ -1,0 +1,22 @@
+<app-header></app-header>
+
+<ion-title>Liste oeuvres</ion-title>
+<ion-button [routerLink]="['/oeuvre-create']">
+  Ajouter Oeuvre
+</ion-button>
+  
+<ion-content class="ion-padding">
+  <ion-card *ngFor="let item of oeuvresData">
+    <img [src]="item.picture" [alt]="item.name">
+    <ion-card-header>
+      <ion-card-subtitle>{{ item.author }}</ion-card-subtitle>
+      <ion-card-title>{{ item.name }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ item.date }}</p>
+      <p>{{ item.location }}</p>
+      
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

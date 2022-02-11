@@ -1,0 +1,39 @@
+<app-header></app-header>
+
+<ion-content class="ion-padding">
+  <div class="landing-add">
+    <ion-item>
+      <ion-label>Name:</ion-label>
+      <ion-input [(ngModel)]="data.name" placeholder="Nom oeuvre"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Date:</ion-label>
+      <ion-input [(ngModel)]="data.date" placeholder="Année oeuvre"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Localisation:</ion-label>
+      <ion-input [(ngModel)]="data.location" placeholder="Nom ville"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Auteur:</ion-label>
+      <ion-input [(ngModel)]="data.author" placeholder="Nom auteur"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Image:</ion-label>
+      <ion-input [(ngModel)]="data.picture" placeholder="Lien image"></ion-input>
+    </ion-item>
+  
+    
+      <ion-button (click)="submitForm()">Ajouter
+      </ion-button>
+      
+  </div>
+  <iframe src="https://giphy.com/embed/Dp9IyP2NtweeKDTN9V" width="360" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-street-art-mister-thoms-Dp9IyP2NtweeKDTN9V">via GIPHY</a></p>
+
+</ion-content>
+
+

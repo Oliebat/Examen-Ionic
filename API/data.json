@@ -1,0 +1,52 @@
+{
+  "oeuvres": [
+    {
+      "id": 1,
+      "name": "La Petite Fille au ballon",
+      "author": "Banksy",
+      "picture": "https://www.kazoart.com/blog/wp-content/uploads/2019/02/petite-fille-au-ballon-bansky.jpg",
+      "date": "2004",
+      "location": "Londres"
+    },
+    {
+      "id": 2,
+      "name": "Mr Chat",
+      "author": "Thoma Vuille",
+      "picture": "https://www.kazoart.com/blog/wp-content/uploads/2019/02/diapo5monsieurchat.jpg",
+      "date": "2004",
+      "location": "Paris"
+    },
+    {
+      "id": 3,
+      "name": "Inside Out Project",
+      "author": "JR",
+      "picture": "https://www.kazoart.com/blog/wp-content/uploads/2019/02/inside-out-jr-1.jpg",
+      "date": "2011",
+      "location": "Paris"
+    },
+    {
+      "id": 4,
+      "name": "Nobody likes me",
+      "author": "iHeart",
+      "picture": "https://www.kazoart.com/blog/wp-content/uploads/2019/02/iheart-nobody-likes-me.jpg",
+      "date": "2017",
+      "location": "New York"
+    },
+    {
+      "id": 5,
+      "name": "The Giant of Boston",
+      "author": "Os Geomos",
+      "picture": "https://www.kazoart.com/blog/wp-content/uploads/2019/02/OS-GEMEOS-the-giant-of-boston-1140x758.jpg",
+      "date": "2012",
+      "location": "Boston"
+    },
+    {
+      "id": 6,
+      "name": "We the youth",
+      "author": "Keith Haring",
+      "picture": "https://www.kazoart.com/blog/wp-content/uploads/2018/02/Keith_Haring_We_Are_The_Youth.jpg",
+      "date": "1987",
+      "location": "Philadelphie"
+    }
+  ]
+}
