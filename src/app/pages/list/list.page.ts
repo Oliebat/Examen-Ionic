@@ -42,6 +42,21 @@ export class ListPage implements OnInit {
     });
   }
 
+  // like(userId) {
+  //   for(let item of this.oeuvresData) {
+  //     if(item.id == userId) {
+  //         item.isLiked = true;
+  //       }
+  //    }
+  // }
+  
+  // unlike(userId) {
+  //   for(let item of this.oeuvresData) {
+  //     if(item.id == userId) {
+  //       item.isLiked = false;
+  //     }
+  //   }
+  // }
 
 
 }

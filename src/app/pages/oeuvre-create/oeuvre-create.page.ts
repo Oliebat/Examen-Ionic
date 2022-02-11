@@ -24,7 +24,7 @@ export class OeuvreCreatePage implements OnInit {
 
   submitForm() {
     this.apiService.createItem(this.data).subscribe((response) => {
-      this.router.navigate(['oeuvre-list']);
+      this.router.navigate(['list']);
     });
 
   }
